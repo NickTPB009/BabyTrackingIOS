@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B749110E2A03401900BE2CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749110D2A03401900BE2CB1 /* AppDelegate.swift */; };
+		B74911102A03401900BE2CB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749110F2A03401900BE2CB1 /* SceneDelegate.swift */; };
+		B74911122A03401900BE2CB1 /* MianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74911112A03401900BE2CB1 /* MianViewController.swift */; };
+		B74911152A03401900BE2CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74911132A03401900BE2CB1 /* Main.storyboard */; };
+		B74911172A03401C00BE2CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74911162A03401C00BE2CB1 /* Assets.xcassets */; };
+		B749111A2A03401C00BE2CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74911182A03401C00BE2CB1 /* LaunchScreen.storyboard */; };
+		B74911282A03453900BE2CB1 /* SleepingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74911272A03453900BE2CB1 /* SleepingViewController.swift */; };
+		B749112A2A0345A600BE2CB1 /* FeedingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74911292A0345A600BE2CB1 /* FeedingViewController.swift */; };
+		B749112C2A03464100BE2CB1 /* NappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749112B2A03464100BE2CB1 /* NappyViewController.swift */; };
+		B749112E2A0346A900BE2CB1 /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749112D2A0346A900BE2CB1 /* MedicationViewController.swift */; };
+		B74911302A03470800BE2CB1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B749112F2A03470800BE2CB1 /* HistoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B749110A2A03401900BE2CB1 /* BabyTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B749110D2A03401900BE2CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B749110F2A03401900BE2CB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B74911112A03401900BE2CB1 /* MianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianViewController.swift; sourceTree = "<group>"; };
+		B74911142A03401900BE2CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74911162A03401C00BE2CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74911192A03401C00BE2CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B749111B2A03401C00BE2CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74911272A03453900BE2CB1 /* SleepingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingViewController.swift; sourceTree = "<group>"; };
+		B74911292A0345A600BE2CB1 /* FeedingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingViewController.swift; sourceTree = "<group>"; };
+		B749112B2A03464100BE2CB1 /* NappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NappyViewController.swift; sourceTree = "<group>"; };
+		B749112D2A0346A900BE2CB1 /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		B749112F2A03470800BE2CB1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74911072A03401900BE2CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74911012A03401900BE2CB1 = {
+			isa = PBXGroup;
+			children = (
+				B749110C2A03401900BE2CB1 /* BabyTracking */,
+				B749110B2A03401900BE2CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B749110B2A03401900BE2CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B749110A2A03401900BE2CB1 /* BabyTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B749110C2A03401900BE2CB1 /* BabyTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B74911262A0341D100BE2CB1 /* Main */,
+				B74911212A03415600BE2CB1 /* Sleeping */,
+				B74911222A03416800BE2CB1 /* Feeding */,
+				B74911232A03417600BE2CB1 /* Nappy */,
+				B74911242A03418300BE2CB1 /* Medication */,
+				B74911252A03419500BE2CB1 /* History */,
+				B749110D2A03401900BE2CB1 /* AppDelegate.swift */,
+				B749110F2A03401900BE2CB1 /* SceneDelegate.swift */,
+				B74911132A03401900BE2CB1 /* Main.storyboard */,
+				B74911162A03401C00BE2CB1 /* Assets.xcassets */,
+				B74911182A03401C00BE2CB1 /* LaunchScreen.storyboard */,
+				B749111B2A03401C00BE2CB1 /* Info.plist */,
+			);
+			path = BabyTracking;
+			sourceTree = "<group>";
+		};
+		B74911212A03415600BE2CB1 /* Sleeping */ = {
+			isa = PBXGroup;
+			children = (
+				B74911272A03453900BE2CB1 /* SleepingViewController.swift */,
+			);
+			path = Sleeping;
+			sourceTree = "<group>";
+		};
+		B74911222A03416800BE2CB1 /* Feeding */ = {
+			isa = PBXGroup;
+			children = (
+				B74911292A0345A600BE2CB1 /* FeedingViewController.swift */,
+			);
+			path = Feeding;
+			sourceTree = "<group>";
+		};
+		B74911232A03417600BE2CB1 /* Nappy */ = {
+			isa = PBXGroup;
+			children = (
+				B749112B2A03464100BE2CB1 /* NappyViewController.swift */,
+			);
+			path = Nappy;
+			sourceTree = "<group>";
+		};
+		B74911242A03418300BE2CB1 /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				B749112D2A0346A900BE2CB1 /* MedicationViewController.swift */,
+			);
+			path = Medication;
+			sourceTree = "<group>";
+		};
+		B74911252A03419500BE2CB1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				B749112F2A03470800BE2CB1 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		B74911262A0341D100BE2CB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B74911112A03401900BE2CB1 /* MianViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74911092A03401900BE2CB1 /* BabyTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B749111E2A03401C00BE2CB1 /* Build configuration list for PBXNativeTarget "BabyTracking" */;
+			buildPhases = (
+				B74911062A03401900BE2CB1 /* Sources */,
+				B74911072A03401900BE2CB1 /* Frameworks */,
+				B74911082A03401900BE2CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyTracking;
+			productName = BabyTracking;
+			productReference = B749110A2A03401900BE2CB1 /* BabyTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74911022A03401900BE2CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B74911092A03401900BE2CB1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B74911052A03401900BE2CB1 /* Build configuration list for PBXProject "BabyTracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74911012A03401900BE2CB1;
+			productRefGroup = B749110B2A03401900BE2CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74911092A03401900BE2CB1 /* BabyTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74911082A03401900BE2CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B749111A2A03401C00BE2CB1 /* LaunchScreen.storyboard in Resources */,
+				B74911172A03401C00BE2CB1 /* Assets.xcassets in Resources */,
+				B74911152A03401900BE2CB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74911062A03401900BE2CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74911122A03401900BE2CB1 /* MianViewController.swift in Sources */,
+				B74911282A03453900BE2CB1 /* SleepingViewController.swift in Sources */,
+				B749110E2A03401900BE2CB1 /* AppDelegate.swift in Sources */,
+				B749112C2A03464100BE2CB1 /* NappyViewController.swift in Sources */,
+				B749112A2A0345A600BE2CB1 /* FeedingViewController.swift in Sources */,
+				B749112E2A0346A900BE2CB1 /* MedicationViewController.swift in Sources */,
+				B74911102A03401900BE2CB1 /* SceneDelegate.swift in Sources */,
+				B74911302A03470800BE2CB1 /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B74911132A03401900BE2CB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74911142A03401900BE2CB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74911182A03401C00BE2CB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74911192A03401C00BE2CB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B749111C2A03401C00BE2CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B749111D2A03401C00BE2CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B749111F2A03401C00BE2CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.utas.ctian.BabyTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B74911202A03401C00BE2CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.utas.ctian.BabyTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74911052A03401900BE2CB1 /* Build configuration list for PBXProject "BabyTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B749111C2A03401C00BE2CB1 /* Debug */,
+				B749111D2A03401C00BE2CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B749111E2A03401C00BE2CB1 /* Build configuration list for PBXNativeTarget "BabyTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B749111F2A03401C00BE2CB1 /* Debug */,
+				B74911202A03401C00BE2CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74911022A03401900BE2CB1 /* Project object */;
+}
